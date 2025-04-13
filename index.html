@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda - Noval</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      padding: 30px;
+      text-align: center;
+      border-bottom: 3px solid #fca311;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #fca311;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      background-color: #222;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #f0f0f0;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s;
+    }
+
+    nav a:hover {
+      color: #fca311;
+    }
+
+    .hero {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-bottom: 5px solid #fca311;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 30px auto;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 0 20px;
+    }
+
+    .content {
+      flex: 3;
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .content h2 {
+      color: #fca311;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      margin-bottom: 15px;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    aside {
+      flex: 1;
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    aside h3 {
+      color: #fca311;
+      margin-bottom: 10px;
+    }
+
+    aside ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    aside ul li {
+      margin-bottom: 12px;
+    }
+
+    aside ul li a {
+      color: #8fbcff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    aside ul li a:hover {
+      color: #ffffff;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1c1c1c;
+      color: #ccc;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+      border-top: 3px solid #fca311;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Selamat Datang di Halaman Noval</h1>
+  </header>
+
+  <nav>
+    <a href="beranda.html">Beranda</a>
+    <a href="biodata.html">Biodata</a>
+    <a href="kontak.html">Kontak</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <img src="wf.jpg" class="hero" alt="Banner Noval">
+
+  <div class="container">
+    <div class="content">
+      <h2>Tentang Saya</h2>
+      <p>
+        Halo! Aku Noval, seorang Mahasiswa Ilmu Komputer dari Universitas Pattimura, Ambon. Dengan latar belakang akademik yang kuat, aku menguasai berbagai aspek teknologi seperti coding, Microsoft Office, dan analisis data kompleks.
+      </p>
+      <p>
+        Aku juga punya sisi kreatif—aku suka bernyanyi dan sering menghibur orang di sekitarku. Aku suka tantangan dan terus berusaha tumbuh, mencoba hal-hal baru, serta membangun hubungan yang tulus dan bermakna.
+      </p>
+      <p>
+        Meskipun sedikit nyentrik, aku menghargai persahabatan dan selalu ingin memberi dampak positif di setiap kesempatan.
+      </p>
+
+      <iframe src="https://www.youtube.com/embed/jbwv_0zWqPc?si=rZq29gBohnlxl239" title="Video Noval" allowfullscreen></iframe>
+    </div>
+
+    <aside>
+      <h3>Link Terkait</h3>
+      <ul>
+        <li><a href="https://unpatti.ac.id/" target="_blank">Website Universitas</a></li>
+        <li><a href="https://fst.unpatti.ac.id/" target="_blank">Website Fakultas</a></li>
+        <li><a href="https://ilkom.fst.unpatti.ac.id/" target="_blank">Website Prodi</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Noval Febrian. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
